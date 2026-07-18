@@ -28,3 +28,9 @@ while (number >= 1) {
 // Task 4 — Repeat a Message
 // Using a while loop, print "Loop চলছে" exactly 7 times.
 // // Your code here
+
+let i = 1;
+while (i <= 7) {
+    console.log("Loop চলছে");
+    i++;
+}
