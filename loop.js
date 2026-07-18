@@ -148,3 +148,43 @@ for (let i = 1; i <= 100; i++) {
     console.log(i)
 }
 
+//nested for loop:
+for (let a = 1; a <= 5; a++) {
+    let output = "";
+
+    for (let b = 1; b <= a; b++) {
+        output += a;
+    }
+    console.log(output)
+}
+
+// Task- 2
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+for (let c = 1; c <= 5; c++) {
+    let result = "";
+    for (let d = 1; d <= c; d++) {
+        result += d;
+    }
+    console.log(result)
+}
+
+// task -3
+// *
+// **
+// ***
+// ****
+// *****
+
+for (let e = 1; e <= 5; e++) {
+    let run = "";
+
+    for (let f = 1; f <= e; f++) {
+        run += "*";
+    }
+    console.log(run)
+}
