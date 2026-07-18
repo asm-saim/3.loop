@@ -38,45 +38,48 @@ while (i <= 7) {
 // Task 5 — Even Numbers 
 // Write a for loop that prints all even numbers between 1 and 30.
 // // Your code here
- 
-for(let i=2;i<=30;i=i+2)
-    {
-        console.log(i)
-    } 
+
+for (let i = 2; i <= 30; i = i + 2) {
+    console.log(i)
+}
 
 // Task 6 — Sum of Numbers 
 // Write a for loop that calculates the sum of numbers from 1 to 20 and prints the result.
 // // Your code here
- 
-let sum=0;
- for(let i=1;i<=20;i++)
- {
-  sum=sum+i;  
- }
- console.log("Total: ",sum);
+
+let sum = 0;
+for (let i = 1; i <= 20; i++) {
+    sum = sum + i;
+}
+console.log("Total: ", sum);
 
 // Task 7 — Multiplication Table 
 // Ask the user for a number (or set a variable), then print its multiplication table from 1 to 10 using a for loop. Example: if the number is 7 → 7 x 1 = 7, 7 x 2 = 14, ... 7 x 10 = 70.
 // // Your code here
- let mtp=7;
- for(let i=1;i<=10;i++)
- {
-    let res=mtp*i;
-    console.log(mtp,"X",i,"=",res)
- }
+let mtp = 7;
+for (let i = 1; i <= 10; i++) {
+    let res = mtp * i;
+    console.log(mtp, "X", i, "=", res)
+}
 
 // Task 8 — Count Down from 20 
 // Write a for loop that counts down from 20 to 1.
 // // Your code here
- 
- 
+
+for (let i = 20; i >= 1; i--) {
+    console.log(i)
+}
 
 // Task 9 — Sum of Even Numbers
 // Write a for loop that calculates the sum of all even numbers from 2 to 50.
 // // Your code here
- 
- 
 
-// Task 10 — Using Break 
+let store = 0
+for (let i = 2; i <= 50; i = i + 2) {
+    store = store + i;
+}
+console.log("Total sum of even number from 2 to 50 is: ", store)
+
+// Task 10 — Using Break
 // Write a for loop from 1 to 50 that stops completely (break) as soon as it reaches a number greater than 30.
 // // Your code here
