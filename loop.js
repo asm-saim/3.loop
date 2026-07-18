@@ -89,3 +89,46 @@ for (let i = 1; i <= 50; i++) {
     }
     console.log(i)
 }
+
+
+// Task 11 — Using Continue 
+// Write a for loop from 1 to 20 that skips (continue) any number divisible by 4.
+// // Your code here
+ 
+ for(let i = 1; i<=20;i++)
+ {
+    if(i%4===0)
+    {
+        continue
+    }
+    console.log(i)
+ }
+
+// Task 12 — Do While Loop — Optional 
+// Write a do while loop that prints numbers from 1 to 5. Then modify the condition so it is false from the start (for example, i > 10) and observe that the loop still runs once.
+// // Your code here
+ 
+ 
+
+// Task 13 — Comparing Loop Types
+// Write the same task — printing numbers 1 to 5 — three times: once using for, once using while, and once using do while. Compare how the code structure differs for each.
+// // for loop version
+ 
+ 
+// // while loop version
+ 
+ 
+// // do while loop version
+ 
+ 
+
+// Task 14 — Mini Challenge 
+// Write a program that:
+// Loops from 1 to 100.
+// Skips (continue) any number divisible by 5.
+// Stops (break) completely once it reaches a number greater than 40.
+// Prints every number that passes both checks.
+// // Your code here
+ 
+ 
+ 
